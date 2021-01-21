@@ -1,3 +1,5 @@
+// https://github.com/Md-Imam-Hasan/Javascript-Problem-Solving
+
 // kilometerToMeter conversion begin
 function kilometerToMeter(kilometer) {
   if (kilometer < 0) {
@@ -51,7 +53,7 @@ console.log(result3);
 // megaFriend begin
 function megaFriend(friendsArray) {
   if (friendsArray.length == 0) {
-    return "Invalid input, enter valid input";
+    return "Invalid input, enter some name";
   } else {
     let megaName = "";
     for (var i = 0; i < friendsArray.length; i++) {
