@@ -3,7 +3,7 @@
 // kilometerToMeter conversion begin
 function kilometerToMeter(kilometer) {
   if (kilometer < 0) {
-    return "Invalid input, enter a non-negetive length";
+    return "Invalid input, enter a non-negative length";
   } else {
     const meter = kilometer * 1000; // 1 kilometer = 1000 meter
     return meter;
@@ -17,7 +17,7 @@ console.log(result1);
 // budgetCalculator begin
 function budgetCalculator(watch, phone, laptop) {
   if (watch < 0 || phone < 0 || laptop < 0) {
-    return "Invalid input, enter non-negetive number"
+    return "Invalid input, enter non-negative number"
   } else {
     const watchPrice = watch * 50;
     const phonePrice = phone * 100;
@@ -35,7 +35,7 @@ console.log(result2);
 function hotelCost(days) {
   let cost;
   if (days < 0) {
-    return "Invalid input, enter non-negetive number of days";
+    return "Invalid input, enter non-negative number of days";
   } else if (days >= 0 && days <= 10) {
     cost = days * 100;
   } else if (days > 10 && days <= 20) {
